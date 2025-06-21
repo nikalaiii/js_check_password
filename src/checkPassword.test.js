@@ -21,7 +21,7 @@ describe(`Function 'checkPassword':`, () => {
 
   it('should accept max 16 charakters in password', () => {
     const result = checkPassword(
-      'Password1!Password1!Password1!Password1!Password1!'
+      'Password1!Passwor'
     );
 
     expect(result).toBe(false);
